@@ -1,0 +1,1 @@
+g++ cameratest.cpp `pkg-config --cflags gstreamer-1.0` `pkg-config --libs gstreamer-1.0` -o cameratest

@@ -1,0 +1,3 @@
+gcc -Wall helloworld.c -o helloworld $(pkg-config --cflags --libs gstreamer-1.0)
+
+debug: GST_DEBUG=*:4 ./testcamera
